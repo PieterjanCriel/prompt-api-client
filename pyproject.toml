@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prompto"
+version = "0.0.1"
+description = "A simple prompt library for Python"
+authors = ["Pieterjan, Criel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1"
+
+[tool.poetry.dev-dependencies]
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
